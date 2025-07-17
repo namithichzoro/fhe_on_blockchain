@@ -8,3 +8,4 @@ FHEVM is the core technology that powers the Zama Protocol. It is composed of th
 - **Coprocessors** – Decentralized services that verify encrypted inputs, run FHE computations, and commit results.
 - **Gateway** – The central orchestrator of the protocol. It validates encrypted inputs, manages access control lists (ACLs), bridges ciphertexts across chains, and coordinates coprocessors and the KMS.
 - **Key Management Service (KMS)** – A threshold MPC network that generates and rotates FHE keys, and handles secure, verifiable decryption.
+- **Relayer & oracle** – A lightweight off-chain service that helps users interact with the Gateway by forwarding encryption or decryption requests.
